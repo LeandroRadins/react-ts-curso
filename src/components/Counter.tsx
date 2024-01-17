@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Button } from "./ui/button";
 
 export const Counter = () => {
   const [counter, setCounter] = useState(0);
@@ -15,7 +14,6 @@ export const Counter = () => {
       <h1 className="text-center fw-bolder">{counter}</h1>
       <div className="card-body container text-center">
         <div className="row gap-2">
-          <Button variant="outline">Button</Button>
           <button
             onClick={() => sumar(1)}
             className="col btn btn-outline-primary mt-2"

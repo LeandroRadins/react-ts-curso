@@ -18,7 +18,7 @@ export const User = () => {
   };
 
   return (
-    <div className="card bg-primary-subtle border border-2 border-primary-subtle p-4 mt-4 text-emphasis">
+    <div className="card bg-primary-subtle border-2 border-primary-subtle p-4 mt-4 text-emphasis">
       <h3 className="card-title">Usuario: UseState</h3>
       <hr />
       {!user ? (

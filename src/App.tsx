@@ -4,12 +4,9 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "./components/ui/card";
-import { Button } from "./components/ui/button";
-import { Timer } from "./components/Timer";
 import { TimerPadre } from "./components/TimerPadre";
 
 function App() {
