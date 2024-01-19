@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Timer } from "./Timer";
 
-export const TimerPadre = () => {
+export const RootTimer = () => {
   const [Miliseconds, setMiliseconds] = useState(1000);
   const [StopTemp, setStopTemp] = useState(false);
 
